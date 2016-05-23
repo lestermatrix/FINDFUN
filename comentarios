@@ -1,0 +1,22 @@
+/*Comentarios BD  FINDFUN */ 
+-El procedimeinto de banners del dia, debe comparar por dia no por fecha, es decir 
+que el dia que se debe guardar es el dia de la promocion por ejemplo lunes, martes..
+etc. para que cuando se compare contra el dia actual solo se verifique que dia es 
+para elegir los banners que corresponden.
+
+-Falta el procedimiento de banners actuales, estos contienen una hora de inicio
+y una hora de final TOMAR EN CUENTA LOS TIPOS DE DATOS EN LA BD, SI SOLO VAMOS
+A USAR HORA USAMOS TIME, SI SOLO LA FECHA NOS INTERESA USAMOS DATE. 
+
+si la hora actual esta entre la hora de inicio del banner y la hora del final y el dia
+es el mismo, entonces lo creamos, de lo seleccionamos.. 
+
+
+- HAY DOS TIPOS DE BANNER: los banner que son periodicos y los banner que son evento
+especial, la diferencia es que el banner especial es una fecha especifica con una
+hora especifica, mientras qu elos banners periodicos SON DIAS ESPECIFICOS (1 O MAS,
+LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO) con un rango de hora
+especifico que puede ser seleccionado.
+
+CAmbiar esto en la base de datos, para que podamos seguir porque ya vamos algo 
+atrasados.XD

@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html ng-app="findfun">
+<head>
+  <meta charset="utf-8"> </meta>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"> </script>
+  <script src="https://code.angularjs.org/1.5.5/angular-route.min.js"> </script>
+
+
+    <title> FINDFUN APP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+</head>
+<body>
+  <div class="container" >
+  <h1><a href="#">FINDFÜN</a></h1>
+  <div class="navbar navbar-default">
+    <div class="navbar-inner">
+        <ul class="nav navbar-nav">
+          <li><a href="#/lista/estemomento">Promociones en este momento</a></li>
+           <li><a href="#/lista/listadia">Promociones del dia</a></li>
+           <li><a href="#">Todas las promociones</a></li>
+           <li><a href="#">Promociones por establecimiento</a></li>
+           <!--<li><a href="#">Downloads</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li> -->
+       </ul>
+    </div>
+ </div>
+
+
+ <div ng-view >
+
+ </div>
+ </div>
+<script src="views/script.js"> </script>
+</body>
+</html>
